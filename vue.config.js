@@ -1,3 +1,7 @@
 module.exports = {
-  runtimeCompiler: true
+  runtimeCompiler: true,
+  lintOnSave: true,
+  devServer: {
+    https: true
+  }
 }
